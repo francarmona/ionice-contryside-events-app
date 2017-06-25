@@ -20,7 +20,8 @@ export class ScheduleFilterPage {
     // passed in array of track names that should be excluded (unchecked)
     let excludedTrackNames = this.navParams.data;
 
-    this.confData.getTracks().subscribe((trackNames: string[]) => {
+
+    this.confData.getCategories().subscribe((trackNames: string[]) => {
 
       trackNames.forEach(trackName => {
         this.tracks.push({
@@ -42,6 +43,7 @@ export class ScheduleFilterPage {
   applyFilters() {
     // Pass back a new array of track names to exclude
     let excludedTrackNames = this.tracks.filter(c => !c.isChecked).map(c => c.name);
+      //console.log(excludedTrackNames);
     this.dismiss(excludedTrackNames);
   }
 
