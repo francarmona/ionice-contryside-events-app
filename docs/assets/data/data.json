@@ -1,0 +1,193 @@
+{
+    "events":[
+        {
+            "name": "Barbacoa",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "timeStart": "10:00 pm",
+            "timeEnd": "00:00 am",
+            "location": "Castillo",
+            "tracks": ["Barbacoa"],
+            "date": "2017-06-27"
+        },
+        {
+            "name": "Taller",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "timeStart": "10:00 am",
+            "timeEnd": "01:00 am",
+            "location": "Casa adfsdf",
+            "tracks": ["Taller"],
+            "date": "2017-06-27"
+        },
+        {
+            "name": "Concierto",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "timeStart": "11:00 pm",
+            "timeEnd": "04:00 am",
+            "location": "Castillo",
+            "tracks": ["Conciertos"],
+            "date": "2017-06-27"
+        },
+        {
+            "name": "Taller 2",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "timeStart": "10:00 am",
+            "timeEnd": "01:00 am",
+            "location": "Casa erere",
+            "tracks": ["Taller"],
+            "date": "2017-06-27"
+        }
+    ],
+
+    "houses": [
+        {
+            "name": "C2",
+            "picture": "assets/img/houses/C2_.jpg",
+            "tipo": "assets/img/C_orange.png",
+            "titulo": "Superficie huella 31,5  m². Área interior 21  m².",
+            "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe.</li><li>Capa acabado muros previsiblemente mortero cal, con colores blanco y añil característicos.</li><li>Ausencia de nuevos huecos practicados en los paramentos.</li></ul><p>Variaciones:<ul><li>Puerta de acceso metálica.</li><li>Adhesión volumen de nueva construcción, uso garaje-almacén independiente.</li></ul></p><p>Terreno vinculado: viña.</p>",
+            "lat": "39.153512",
+            "lon": "-3.088449"
+        },
+        {
+            "name": "C7",
+            "picture": "assets/img/houses/C7_.jpg",
+            "tipo": "assets/img/C_orange.png",
+            "titulo": "Superficie huella 67,5  m². Área 50 m².",
+            "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe. Buen estado</li><li>Capa acabado muros previsiblemente mortero cal, con colores blanco.</li></ul><p>Variaciones:<ul><li>Construcción pequeñas dimensiones anexionada (almacén o caseta motor).</li></ul></p><p>Terreno vinculado: viña.</p>",
+            "lat": "39.169442",
+            "lon": "-3.077025"
+        },
+        {
+            "name": "C24",
+            "picture": "assets/img/houses/C24_.jpg",
+            "tipo": "assets/img/C_orange.png",
+            "titulo": "Superficie huella  43,65  m². Área interior 30,8  m².",
+            "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe. Buen estado</li></ul><p>Variaciones:<ul><li>Capa acabado muros previsiblemente mortero cementado, pigmento blanco.</li></ul></p><p>Terreno vinculado: viña.</p>",
+            "lat": "39.217603",
+            "lon": "-3.094882"
+        }
+    ],
+
+  "speakers": [{
+    "name": "Burt Bear",
+    "profilePic": "assets/img/speakers/bear.jpg",
+    "twitter": "ionicframework",
+    "about": "Burt is a Bear.",
+    "location": "Everywhere",
+    "email": "burt@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Charlie Cheetah",
+    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "twitter": "ionicframework",
+    "about": "Charlie is a Cheetah.",
+    "location": "Everywhere",
+    "email": "charlie@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Donald Duck",
+    "profilePic": "assets/img/speakers/duck.jpg",
+    "twitter": "ionicframework",
+    "about": "Donald is a Duck.",
+    "location": "Everywhere",
+    "email": "donald@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Eva Eagle",
+    "profilePic": "assets/img/speakers/eagle.jpg",
+    "twitter": "ionicframework",
+    "about": "Eva is an Eagle.",
+    "location": "Everywhere",
+    "email": "eva@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Ellie Elephant",
+    "profilePic": "assets/img/speakers/elephant.jpg",
+    "twitter": "ionicframework",
+    "about": "Ellie is an Elephant.",
+    "location": "Everywhere",
+    "email": "ellie@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Gino Giraffe",
+    "profilePic": "assets/img/speakers/giraffe.jpg",
+    "twitter": "ionicframework",
+    "about": "Gino is a Giraffe.",
+    "location": "Everywhere",
+    "email": "gino@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Isabella Iguana",
+    "profilePic": "assets/img/speakers/iguana.jpg",
+    "twitter": "ionicframework",
+    "about": "Isabella is an Iguana.",
+    "location": "Everywhere",
+    "email": "isabella@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Karl Kitten",
+    "profilePic": "assets/img/speakers/kitten.jpg",
+    "twitter": "ionicframework",
+    "about": "Karl is a Kitten.",
+    "location": "Everywhere",
+    "email": "karl@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Lionel Lion",
+    "profilePic": "assets/img/speakers/lion.jpg",
+    "twitter": "ionicframework",
+    "about": "Lionel is a Lion.",
+    "location": "Everywhere",
+    "email": "lionel@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Molly Mouse",
+    "profilePic": "assets/img/speakers/mouse.jpg",
+    "twitter": "ionicframework",
+    "about": "Molly is a Mouse.",
+    "location": "Everywhere",
+    "email": "molly@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Paul Puppy",
+    "profilePic": "assets/img/speakers/puppy.jpg",
+    "twitter": "ionicframework",
+    "about": "Paul is a Puppy.",
+    "location": "Everywhere",
+    "email": "paul@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Rachel Rabbit",
+    "profilePic": "assets/img/speakers/rabbit.jpg",
+    "twitter": "ionicframework",
+    "about": "Rachel is a Rabbit.",
+    "location": "Everywhere",
+    "email": "rachel@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Ted Turtle",
+    "profilePic": "assets/img/speakers/turtle.jpg",
+    "twitter": "ionicframework",
+    "about": "Ted is a Turtle.",
+    "location": "Everywhere",
+    "email": "ted@example.com",
+    "phone": "+1-541-754-3010"
+  }],
+
+
+  "map": [{
+    "name": "Monona Terrace Convention Center",
+    "lat": 43.071584,
+    "lng": -89.380120,
+    "center": true
+  }, {
+    "name": "Ionic HQ",
+    "lat": 43.074395,
+    "lng": -89.381056
+  }, {
+    "name": "Afterparty - Brocach Irish Pub",
+    "lat": 43.07336,
+    "lng": -89.38335
+  }]
+
+}
