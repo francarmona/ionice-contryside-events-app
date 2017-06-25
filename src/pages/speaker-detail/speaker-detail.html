@@ -6,20 +6,33 @@
 
 <ion-content padding class="speaker-detail">
 
-  <div text-center>
-    <img [src]="speaker.profilePic" [alt]="speaker.name"><br>
 
-    <button ion-button icon-only clear small color="twitter">
-      <ion-icon name="logo-twitter"></ion-icon>
-    </button>
-    <button ion-button icon-only clear small color="github">
-      <ion-icon name="logo-github"></ion-icon>
-    </button>
-    <button ion-button icon-only clear small color="instagram">
-      <ion-icon name="logo-instagram"></ion-icon>
-    </button>
-  </div>
+    <ion-card>
+        <img [src]="speaker.picture"/>
+        <ion-card-content>
+            <ion-card-title>
+                <img [src]="speaker.tipo" style="height:35px;width:auto;display:inline"/>
+                {{speaker.name}}
+            </ion-card-title>
+            <p [innerHTML]="speaker.titulo"></p>
+            <p [innerHTML]="speaker.description"></p>
+        </ion-card-content>
+    </ion-card>
 
-  <p>{{speaker.about}}</p>
+  <!--<div text-center>-->
+    <!--<img [src]="speaker.profilePic" [alt]="speaker.name"><br>-->
+
+    <!--<button ion-button icon-only clear small color="twitter">-->
+      <!--<ion-icon name="logo-twitter"></ion-icon>-->
+    <!--</button>-->
+    <!--<button ion-button icon-only clear small color="github">-->
+      <!--<ion-icon name="logo-github"></ion-icon>-->
+    <!--</button>-->
+    <!--<button ion-button icon-only clear small color="instagram">-->
+      <!--<ion-icon name="logo-instagram"></ion-icon>-->
+    <!--</button>-->
+  <!--</div>-->
+
+  <!--<p>{{speaker.about}}</p>-->
 
 </ion-content>

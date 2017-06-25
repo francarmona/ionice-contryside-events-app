@@ -32,6 +32,7 @@ export class SchedulePage {
   excludeTracks: any = [];
   shownSessions: any = [];
   groups: any = [];
+  events: any = [];
   confDate: string;
 
   constructor(
@@ -54,10 +55,10 @@ export class SchedulePage {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
-    this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe((data: any) => {
-      this.shownSessions = data.shownSessions;
-      this.groups = data.groups;
-    });
+    this.confData.getTimeline(this.queryText, this.excludeTracks, this.segment).subscribe((data: any)=>{
+        this.events = data.events;
+    })
+
   }
 
   presentFilter() {
@@ -66,6 +67,7 @@ export class SchedulePage {
 
     modal.onWillDismiss((data: any[]) => {
       if (data) {
+          console.log(data);
         this.excludeTracks = data;
         this.updateSchedule();
       }
@@ -146,26 +148,13 @@ export class SchedulePage {
     });
     loading.onWillDismiss(() => {
       fab.close();
-    });
+    })
     loading.present();
   }
 
   doRefresh(refresher: Refresher) {
-    this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).subscribe((data: any) => {
-      this.shownSessions = data.shownSessions;
-      this.groups = data.groups;
-
-      // simulate a network request that would take longer
-      // than just pulling from out local json file
-      setTimeout(() => {
-        refresher.complete();
-
-        const toast = this.toastCtrl.create({
-          message: 'Sessions have been updated.',
-          duration: 3000
-        });
-        toast.present();
-      }, 1000);
-    });
+    this.confData.load().subscribe((data: any)=>{
+        this.events = data.events;
+    })
   }
 }

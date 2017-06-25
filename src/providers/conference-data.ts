@@ -8,6 +8,8 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/of';
 
+import * as _ from 'lodash';
+
 
 @Injectable()
 export class ConferenceData {
@@ -29,66 +31,68 @@ export class ConferenceData {
     // build up the data by linking speakers to sessions
     this.data = data.json();
 
-    this.data.tracks = [];
+    this.data.events = this.data.events;
+    this.data.categories = _.union.apply(null,_.map(this.data.events,'tracks'));
 
     // loop through each day in the schedule
-    this.data.schedule.forEach((day: any) => {
-      // loop through each timeline group in the day
-      day.groups.forEach((group: any) => {
-        // loop through each session in the timeline group
-        group.sessions.forEach((session: any) => {
-          session.speakers = [];
-          if (session.speakerNames) {
-            session.speakerNames.forEach((speakerName: any) => {
-              let speaker = this.data.speakers.find((s: any) => s.name === speakerName);
-              if (speaker) {
-                session.speakers.push(speaker);
-                speaker.sessions = speaker.sessions || [];
-                speaker.sessions.push(session);
-              }
-            });
-          }
-
-          if (session.tracks) {
-            session.tracks.forEach((track: any) => {
-              if (this.data.tracks.indexOf(track) < 0) {
-                this.data.tracks.push(track);
-              }
-            });
-          }
-        });
-      });
-    });
+//    this.data.schedule.forEach((day: any) => {
+//      // loop through each timeline group in the day
+//      day.groups.forEach((group: any) => {
+//        // loop through each session in the timeline group
+//        group.sessions.forEach((session: any) => {
+//          session.speakers = [];
+//          if (session.speakerNames) {
+//            session.speakerNames.forEach((speakerName: any) => {
+//              let speaker = this.data.speakers.find((s: any) => s.name === speakerName);
+//              if (speaker) {
+//                session.speakers.push(speaker);
+//                speaker.sessions = speaker.sessions || [];
+//                speaker.sessions.push(session);
+//              }
+//            });
+//          }
+//
+//          if (session.tracks) {
+//            session.tracks.forEach((track: any) => {
+//              if (this.data.tracks.indexOf(track) < 0) {
+//                this.data.tracks.push(track);
+//              }
+//            });
+//          }
+//        });
+//      });
+//    });
 
     return this.data;
   }
 
-  getTimeline(dayIndex: number, queryText = '', excludeTracks: any[] = [], segment = 'all') {
+  getTimeline(queryText = '', excludeCategories: any[] = [], segment = 'all') {
     return this.load().map((data: any) => {
-      let day = data.schedule[dayIndex];
-      day.shownSessions = 0;
+      let dataFiltered = _.cloneDeep(data);
+      let events = this.filterEvents(dataFiltered.events, queryText, excludeCategories);
 
-      queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
-      let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
-
-      day.groups.forEach((group: any) => {
-        group.hide = true;
-
-        group.sessions.forEach((session: any) => {
-          // check if this session should show or not
-          this.filterSession(session, queryWords, excludeTracks, segment);
-
-          if (!session.hide) {
-            // if this session is not hidden then this group should show
-            group.hide = false;
-            day.shownSessions++;
-          }
-        });
-
-      });
-
-      return day;
+      dataFiltered.events = events;
+      return dataFiltered;
     });
+  }
+
+  filterEvents(events: any[], queryText: string, excludeCategories: any[]){
+      queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
+      let filtered: any[] = [];
+      events.forEach((event: any) => {
+          if (this.filterBySearch(event,queryText) && this.filterByCategory(event,excludeCategories)){
+            filtered.push(event);
+          }
+      });
+      return filtered;
+  }
+
+  filterBySearch(event: any,queryText: string){
+      return queryText ? event.name.toLowerCase().indexOf(queryText) > -1 : true;
+  }
+
+  filterByCategory(event: any, excludeCategories: any[]){
+      return !_.includes(excludeCategories,event.tracks[0]);
   }
 
   filterSession(session: any, queryWords: string[], excludeTracks: any[], segment: string) {
@@ -140,11 +144,17 @@ export class ConferenceData {
     });
   }
 
-  getTracks() {
+  getHouses() {
     return this.load().map((data: any) => {
-      return data.tracks.sort();
+        return data.houses;
     });
   }
+
+  getCategories() {
+    return this.load().map((data: any) => {
+        return data.categories.sort();
+    });
+ }
 
   getMap() {
     return this.load().map((data: any) => {

@@ -29,6 +29,8 @@ import { SupportPage } from '../pages/support/support';
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 
+import { TruncateModule } from 'ng2-truncate';
+
 
 @NgModule({
   declarations: [
@@ -55,10 +57,10 @@ import { UserData } from '../providers/user-data';
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs' },
         { component: SchedulePage, name: 'Schedule', segment: 'schedule' },
-        { component: SessionDetailPage, name: 'SessionDetail', segment: 'sessionDetail/:name' },
+        { component: SessionDetailPage, name: 'SessionDetail', segment: 'detalleEvento/:name' },
         { component: ScheduleFilterPage, name: 'ScheduleFilter', segment: 'scheduleFilter' },
-        { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
-        { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:name' },
+        { component: SpeakerListPage, name: 'SpeakerList', segment: 'listaCasas' },
+        { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'detalleCasa/:name' },
         { component: MapPage, name: 'Map', segment: 'map' },
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
@@ -68,6 +70,7 @@ import { UserData } from '../providers/user-data';
         { component: SignupPage, name: 'SignupPage', segment: 'signup' }
       ]
     }),
+    TruncateModule,
     IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
