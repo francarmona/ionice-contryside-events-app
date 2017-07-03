@@ -5,6 +5,7 @@ import { NavParams } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { MapPage } from '../map/map';
 import { DispositivosPage } from '../dispositivos/dispositivos';
+import { GruposConsumoPage } from '../grupos-consumo/grupos-consumo';
 import { SchedulePage } from '../schedule/schedule';
 import { SpeakerListPage } from '../speaker-list/speaker-list';
 
@@ -17,7 +18,8 @@ export class TabsPage {
   tab2Root: any = SpeakerListPage;
   tab3Root: any = MapPage;
   tab4Root: any = DispositivosPage;
-  tab5Root: any = AboutPage;
+  tab5Root: any = GruposConsumoPage;
+  tab6Root: any = AboutPage;
   mySelectedIndex: number;
 
   constructor(navParams: NavParams) {

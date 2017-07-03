@@ -17,6 +17,7 @@ import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
 import { DispositivosPage } from '../pages/dispositivos/dispositivos';
+import { GruposConsumoPage } from '../pages/grupos-consumo/grupos-consumo';
 import { SchedulePage } from '../pages/schedule/schedule';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
@@ -41,6 +42,7 @@ import { TruncateModule } from 'ng2-truncate';
     LoginPage,
     MapPage,
     DispositivosPage,
+    GruposConsumoPage,
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
@@ -65,6 +67,7 @@ import { TruncateModule } from 'ng2-truncate';
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'detalleCasa/:name' },
         { component: MapPage, name: 'Map', segment: 'map' },
         { component: DispositivosPage, name: 'Dispositivos', segment: 'dispositivos' },
+        { component: GruposConsumoPage, name: 'BCS y Grupos de Consumo', segment: 'bcs' },
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },
@@ -84,6 +87,7 @@ import { TruncateModule } from 'ng2-truncate';
     LoginPage,
     MapPage,
     DispositivosPage,
+    GruposConsumoPage,
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,

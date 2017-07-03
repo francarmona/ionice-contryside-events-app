@@ -10,6 +10,7 @@ import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
 import { DispositivosPage } from '../pages/dispositivos/dispositivos';
+import { GruposConsumoPage } from '../pages/grupos-consumo/grupos-consumo';
 import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
@@ -47,7 +48,8 @@ export class ConferenceApp {
     { title: 'Bestiario', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'home' },
     { title: 'Mapa', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'map' },
     { title: 'Dispositivos', name: 'TabsPage', component: TabsPage, tabComponent: DispositivosPage, index: 3, icon: 'ios-cog-outline' },
-    { title: 'About', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 4, icon: 'information-circle' }
+    { title: 'BCS y Grupos de Consumo', name: 'TabsPage', component: TabsPage, tabComponent: GruposConsumoPage, index: 4, icon: 'people' },
+    { title: 'About', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 5, icon: 'information-circle' }
   ];
   loggedInPages: PageInterface[] = [
     { title: 'Account', name: 'AccountPage', component: AccountPage, icon: 'person' },
