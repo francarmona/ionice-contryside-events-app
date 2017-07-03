@@ -108,8 +108,8 @@
         "tipo": "assets/img/C_orange.png",
         "titulo": "Superficie huella  41,86  m². Área interior 29,16 m².",
         "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe.</li><li>Capa acabado muros previsiblemente mortero cal, color blanco. Estado precario.</li></ul><p>Terreno vinculado: viña.</p>",
-        "lat": "39.202070",
-        "lon": "-3.089714"
+        "lat": 39.202070,
+        "lng": -3.089714
       },
       {
         "name": "C19",
@@ -117,8 +117,8 @@
         "tipo": "assets/img/C_orange.png",
         "titulo": "Superficie huella  41,4  m². Área interior 28,8  m².",
         "description": "<p>Variaciones:<ul><li>Cubierta a dos aguas, chapa grecada.</li><li>Capa acabado moertero cemento.</li></ul></p><p>Terreno vinculado: Barbecho.</p>",
-        "lat": "39.204589",
-        "lon": "-3.095079"
+        "lat": 39.204589,
+        "lng": -3.095079
       },
       {
         "name": "B4",
@@ -126,26 +126,44 @@
         "tipo": "assets/img/B_orange.png",
         "titulo": "Superficie huella 67,5  m². Área 50 m².",
         "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe. Buen estado</li><li>Capa acabado muros previsiblemente mortero cal, con colores blanco.</li></ul><p>Variaciones:<ul><li>Construcción pequeñas dimensiones anexionada (almacén o caseta motor).</li></ul></p><p>Terreno vinculado: viña.</p>",
-        "lat": "39.168120",
-        "lon": "-3.088832"
+        "lat": 39.168120,
+        "lng": -3.088832
       },
         {
             "name": "C2",
             "picture": "assets/img/houses/C2_.jpg",
-            "tipo": "assets/img/C_orange.png",
+            "tipo": "assets/img/C_green.png",
             "titulo": "Superficie huella 31,5  m². Área interior 21  m².",
             "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe.</li><li>Capa acabado muros previsiblemente mortero cal, con colores blanco y añil característicos.</li><li>Ausencia de nuevos huecos practicados en los paramentos.</li></ul><p>Variaciones:<ul><li>Puerta de acceso metálica.</li><li>Adhesión volumen de nueva construcción, uso garaje-almacén independiente.</li></ul></p><p>Terreno vinculado: viña.</p>",
-            "lat": "39.153512",
-            "lon": "-3.088449"
+            "lat": 39.153512,
+            "lng": -3.088449
         },
+      {
+        "name": "C8",
+        "picture": "assets/img/houses/C8_.jpg",
+        "tipo": "assets/img/C_red.png",
+        "titulo": "Superficie huella 62,1  m².",
+        "description": "<p>Construcción dividada en dos partes por muro.</p><p>Una parte permanece en estado ruina (21,7  m²). Cubierta teja y cerchas de madera en estado muy precario. Superficie muros tapial y mampostería expuestos a erosión. La otra parte (21,8m²) aloja un motor de extracción de agua de pozo.</p><ul><li>Cubierta de teja.</li><li>Capa acabado muros mortero cal.</li><li>Nuevos huecos practicados: una puerta y dos ventanas.</li></ul></p><p>Terreno vinculado: viña.</p>",
+        "lat": 39.184868,
+        "lng": -3.104903
+      },
+      {
+        "name": "C22",
+        "picture": "assets/img/houses/C22_.jpg",
+        "tipo": "assets/img/C_red.png",
+        "titulo": "Superficie huella  67,5  m². Área interior 50  m².",
+        "description": "<p>El conjunto presenta un estado ruinoso en vías de remodelación sin seguir técnicas tradicionales.</p><ul><li>Cubierta a dos aguas, teja árabe. Estado avanzado declive.</li><li>Capa acabado muros mortero cemento.</li><li>Previsión practicar nuevos huecos ventanas..</li></ul></p><p>Terreno vinculado: viña (joven).</p>",
+        "lat": 39.184868,
+        "lng": -3.104903
+      },
         {
             "name": "C7",
             "picture": "assets/img/houses/C7_.jpg",
             "tipo": "assets/img/C_orange.png",
             "titulo": "Superficie huella 67,5  m². Área 50 m².",
             "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe. Buen estado</li><li>Capa acabado muros previsiblemente mortero cal, con colores blanco.</li></ul><p>Variaciones:<ul><li>Construcción pequeñas dimensiones anexionada (almacén o caseta motor).</li></ul></p><p>Terreno vinculado: viña.</p>",
-            "lat": "39.169442",
-            "lon": "-3.077025"
+            "lat": 39.169442,
+            "lng": -3.077025
         },
         {
             "name": "C24",
@@ -153,74 +171,74 @@
             "tipo": "assets/img/C_orange.png",
             "titulo": "Superficie huella  43,65  m². Área interior 30,8  m².",
             "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe. Buen estado</li></ul><p>Variaciones:<ul><li>Capa acabado muros previsiblemente mortero cementado, pigmento blanco.</li></ul></p><p>Terreno vinculado: viña.</p>",
-            "lat": "39.217603",
-            "lon": "-3.094882"
+            "lat": 39.217603,
+            "lng": -3.094882
         }
     ],
   "dispositivos": [
     {
       "name": "Apptefacto 1",
       "picture": "assets/img/dispositivos/00.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 2",
       "picture": "assets/img/dispositivos/01.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 3",
       "picture": "assets/img/dispositivos/02.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 4",
       "picture": "assets/img/dispositivos/03.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 5",
       "picture": "assets/img/dispositivos/04.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 6",
       "picture": "assets/img/dispositivos/05.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 7",
       "picture": "assets/img/dispositivos/06.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     },
     {
       "name": "Apptefacto 8",
       "picture": "assets/img/dispositivos/07.png",
-      "titulo": "Lorem ipsum dolor",
+      "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
       "lat": "39.217603",
-      "lon": "-3.094882"
+      "lng": "-3.094882"
     }
 
   ],

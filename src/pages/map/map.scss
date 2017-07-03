@@ -29,3 +29,52 @@ page-map #map_canvas.show-map {
 ion-app._gmaps_cdv_ .nav-decor{
   background-color: transparent !important;
 }
+
+.info-box-wrap {
+  background:#fff;
+  overflow: hidden;
+}
+.info-box-text-wrap {
+  //height:40px !important;
+  width:120px;
+  float:left;
+  overflow: hidden;
+}
+.info-box-text-wrap h6.address {
+  padding:6px 5px 1px 0;
+  margin:0 0 0 0;
+  font-family:"Roboto Slab";
+  color: #0c99c8;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.info-box-text-wrap p {
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+.info-box-text-wrap p.price {
+  color:#B25B00;
+}
+
+.info-box-wrap  img {
+  width:55px !important;
+  height:55px;
+  float:left;
+  margin-right: 10px;
+  padding-top:0;
+  margin-top:0;
+}
+
+.infoBox:before{
+  content : " ";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  position:absolute;
+  top:-10px;
+  left:130px;
+}

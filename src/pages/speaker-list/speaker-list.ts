@@ -40,7 +40,7 @@ export class SpeakerListPage {
   goToSpeakerDetail(speakerName: any) {
     this.navCtrl.push(SpeakerDetailPage, {
       speaker: speakerName,
-      name: speakerName.name
+      //name: speakerName.name
     });
   }
 

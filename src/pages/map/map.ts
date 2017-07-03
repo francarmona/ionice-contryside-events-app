@@ -9,7 +9,9 @@ import 'rxjs/add/operator/catch';
 
 import { ConferenceData } from '../../providers/conference-data';
 
-import { Platform } from 'ionic-angular';
+import { Platform, NavController } from 'ionic-angular';
+
+import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
 
 // import jQuery from 'jquery';
 
@@ -24,11 +26,12 @@ declare var GPXParser: any;
 })
 export class MapPage {
 
+    private houses: any[];
   @ViewChild('mapCanvas') mapElement: ElementRef;
-  constructor(public confData: ConferenceData, public platform: Platform, public http: Http) {
+  constructor(public confData: ConferenceData, public platform: Platform, public http: Http, public navCtrl: NavController,) {
   }
 
-    loadGPXFileIntoGoogleMap(map: any, filename: any){
+    /*loadGPXFileIntoGoogleMap(map: any, filename: any){
 
         this.http.get(filename)
             .map((res:Response) => res.text())
@@ -46,6 +49,13 @@ export class MapPage {
                 parser.addWaypointsToMap();
             });
 
+    }*/
+
+    goToHouseDetail(house: any) {
+        this.navCtrl.push(SpeakerDetailPage, {
+            speaker: house,
+            name: house.name
+        });
     }
 
   ionViewDidLoad() {
@@ -57,28 +67,45 @@ export class MapPage {
           zoom: 16
         });
 
-        this.loadGPXFileIntoGoogleMap(map, "assets/ruta.xml");
-//
-//        mapData.forEach((markerData: any) => {
-//          let infoWindow = new google.maps.InfoWindow({
-//            content: `<h5>${markerData.name}</h5>`
-//          });
-//
-//          let marker = new google.maps.Marker({
-//            position: markerData,
-//            map: map,
-//            title: markerData.name
-//          });
-//
-//          marker.addListener('click', () => {
-//            infoWindow.open(map, marker);
-//          });
-//        });
-//
-//        google.maps.event.addListenerOnce(map, 'idle', () => {
-//          mapEle.classList.add('show-map');
-//        });
+          this.confData.getHouses().subscribe((houses: any[]) => {
+              this.houses = houses;
+              let infoWindow = new google.maps.InfoWindow({});
+              let bounds = new google.maps.LatLngBounds();
+              houses.forEach((house: any) => {
 
+                     let marker = new google.maps.Marker({
+                       position: house,
+                       map: map,
+                       title: house.name,
+                         icon: {
+                            url: house.tipo,
+                            scaledSize: new google.maps.Size(35, 50)
+                          }
+                     });
+                    bounds.extend(marker.position);
+
+                     marker.addListener('click', () => {
+
+                         var content = document.createElement('div');
+                         content.innerHTML = (`<div class="info-box-wrap">
+                             <img src="${house.picture}" />
+                         <div class="info-box-text-wrap">
+                         <h6 class="address">${house.name}</h6>
+                         <p class="price">${house.titulo}</p>
+                         </div>`);
+                         var button = content.appendChild(document.createElement('input'));
+                         button.type = 'button';
+                         button.id = 'showMoreButton';
+                         button.value = 'Ver detalle';
+                         button.addEventListener('click', this.goToHouseDetail.bind(this, house));
+                         infoWindow.setContent(content);
+                         infoWindow.open(map, marker);
+                     });
+                });
+              map.fitBounds(bounds);
+          });
+
+        //this.loadGPXFileIntoGoogleMap(map, "assets/ruta.xml");
 
       });
 
