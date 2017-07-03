@@ -41708,6 +41708,47 @@ page-account img {
   border-radius: 50%;
 }
 
+page-dispositivos .scroll-content {
+  background: #EDEDED;
+}
+
+page-dispositivos .speaker-card {
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+page-dispositivos .speaker-card ion-card-content {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (min-width: 769px) {
+  page-dispositivos .speaker-card {
+    height: 370px;
+  }
+}
+
+page-dispositivos .speaker-card ion-card-header .item {
+  padding: 4px 16px;
+}
+
+page-dispositivos .speaker-card ion-card-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+page-dispositivos ion-card img {
+  max-height: 200px;
+  width: auto;
+  margin: auto;
+}
+
 page-user .logo {
   padding: 20px 0;
   min-height: 200px;

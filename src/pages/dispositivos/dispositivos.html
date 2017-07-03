@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Dispositivos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="outer-content speaker-list">
+  <ion-list [virtualScroll]="dispositivos">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-12 col-md-6 *virtualItem="let dispositivo">
+          <ion-card>
+              <img [src]="dispositivo.picture"/>
+              <ion-card-content>
+                  <ion-card-title>
+                      {{dispositivo.name}}
+                  </ion-card-title>
+                  <p [innerHTML]="dispositivo.titulo"></p>
+              </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+</ion-content>

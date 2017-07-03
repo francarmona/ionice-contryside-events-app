@@ -150,6 +150,12 @@ export class ConferenceData {
     });
   }
 
+  getDispositivos() {
+    return this.load().map((data: any) => {
+      return data.dispositivos;
+    });
+  }
+
   getCategories() {
     return this.load().map((data: any) => {
         return data.categories.sort();

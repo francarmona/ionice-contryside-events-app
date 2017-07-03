@@ -9,6 +9,7 @@ import { AboutPage } from '../pages/about/about';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
+import { DispositivosPage } from '../pages/dispositivos/dispositivos';
 import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
@@ -45,7 +46,7 @@ export class ConferenceApp {
     { title: 'Imprevistos', name: 'TabsPage', component: TabsPage, tabComponent: SchedulePage, index: 0, icon: 'calendar' },
     { title: 'Bestiario', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'home' },
     { title: 'Mapa', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'map' },
-    { title: 'Dispositivos', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 3, icon: 'ios-cog-outline' },
+    { title: 'Dispositivos', name: 'TabsPage', component: TabsPage, tabComponent: DispositivosPage, index: 3, icon: 'ios-cog-outline' },
     { title: 'About', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 4, icon: 'information-circle' }
   ];
   loggedInPages: PageInterface[] = [

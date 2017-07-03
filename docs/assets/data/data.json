@@ -10,15 +10,6 @@
             "date": "2017-06-27"
         },
         {
-            "name": "Taller",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "timeStart": "10:00 am",
-            "timeEnd": "01:00 am",
-            "location": "Casa adfsdf",
-            "tracks": ["Taller"],
-            "date": "2017-06-27"
-        },
-        {
             "name": "Concierto",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "timeStart": "11:00 pm",
@@ -27,18 +18,117 @@
             "tracks": ["Conciertos"],
             "date": "2017-06-27"
         },
+      {
+        "name": "Cruising",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
+      {
+        "name": "Hospedaje oferta",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
+      {
+        "name": "Hospedaje demanda",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
         {
-            "name": "Taller 2",
+            "name": "Intercambio semillas",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "timeStart": "10:00 am",
             "timeEnd": "01:00 am",
             "location": "Casa erere",
             "tracks": ["Taller"],
             "date": "2017-06-27"
-        }
+        },
+      {
+        "name": "Prosumir",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
+      {
+        "name": "Taller enjalbegar",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
+      {
+        "name": "Taller gastronómico",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
+      {
+        "name": "Taller reciclaje",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      },
+      {
+        "name": "Taller tapial",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "timeStart": "10:00 am",
+        "timeEnd": "01:00 am",
+        "location": "Casa adfsdf",
+        "tracks": ["Taller"],
+        "date": "2017-06-27"
+      }
     ],
 
     "houses": [
+      {
+        "name": "C18",
+        "picture": "assets/img/houses/C18_.jpg",
+        "tipo": "assets/img/C_orange.png",
+        "titulo": "Superficie huella  41,86  m². Área interior 29,16 m².",
+        "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe.</li><li>Capa acabado muros previsiblemente mortero cal, color blanco. Estado precario.</li></ul><p>Terreno vinculado: viña.</p>",
+        "lat": "39.202070",
+        "lon": "-3.089714"
+      },
+      {
+        "name": "C19",
+        "picture": "assets/img/houses/C19_.jpg",
+        "tipo": "assets/img/C_orange.png",
+        "titulo": "Superficie huella  41,4  m². Área interior 28,8  m².",
+        "description": "<p>Variaciones:<ul><li>Cubierta a dos aguas, chapa grecada.</li><li>Capa acabado moertero cemento.</li></ul></p><p>Terreno vinculado: Barbecho.</p>",
+        "lat": "39.204589",
+        "lon": "-3.095079"
+      },
+      {
+        "name": "B4",
+        "picture": "assets/img/houses/B4_.jpg",
+        "tipo": "assets/img/B_orange.png",
+        "titulo": "Superficie huella 67,5  m². Área 50 m².",
+        "description": "<p>El conjunto presenta cualidades y aspecto en armonía con las técnicas tradicionales. Buen estado.</p><ul><li>Cubierta a dos aguas, teja árabe. Buen estado</li><li>Capa acabado muros previsiblemente mortero cal, con colores blanco.</li></ul><p>Variaciones:<ul><li>Construcción pequeñas dimensiones anexionada (almacén o caseta motor).</li></ul></p><p>Terreno vinculado: viña.</p>",
+        "lat": "39.168120",
+        "lon": "-3.088832"
+      },
         {
             "name": "C2",
             "picture": "assets/img/houses/C2_.jpg",
@@ -67,112 +157,73 @@
             "lon": "-3.094882"
         }
     ],
+  "dispositivos": [
+    {
+      "name": "Apptefacto 1",
+      "picture": "assets/img/dispositivos/00.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 2",
+      "picture": "assets/img/dispositivos/01.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 3",
+      "picture": "assets/img/dispositivos/02.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 4",
+      "picture": "assets/img/dispositivos/03.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 5",
+      "picture": "assets/img/dispositivos/04.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 6",
+      "picture": "assets/img/dispositivos/05.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 7",
+      "picture": "assets/img/dispositivos/06.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    },
+    {
+      "name": "Apptefacto 8",
+      "picture": "assets/img/dispositivos/07.png",
+      "titulo": "Lorem ipsum dolor",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
+      "lat": "39.217603",
+      "lon": "-3.094882"
+    }
 
-  "speakers": [{
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "twitter": "ionicframework",
-    "about": "Burt is a Bear.",
-    "location": "Everywhere",
-    "email": "burt@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Charlie Cheetah",
-    "profilePic": "assets/img/speakers/cheetah.jpg",
-    "twitter": "ionicframework",
-    "about": "Charlie is a Cheetah.",
-    "location": "Everywhere",
-    "email": "charlie@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Donald Duck",
-    "profilePic": "assets/img/speakers/duck.jpg",
-    "twitter": "ionicframework",
-    "about": "Donald is a Duck.",
-    "location": "Everywhere",
-    "email": "donald@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Eva Eagle",
-    "profilePic": "assets/img/speakers/eagle.jpg",
-    "twitter": "ionicframework",
-    "about": "Eva is an Eagle.",
-    "location": "Everywhere",
-    "email": "eva@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Ellie Elephant",
-    "profilePic": "assets/img/speakers/elephant.jpg",
-    "twitter": "ionicframework",
-    "about": "Ellie is an Elephant.",
-    "location": "Everywhere",
-    "email": "ellie@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Gino Giraffe",
-    "profilePic": "assets/img/speakers/giraffe.jpg",
-    "twitter": "ionicframework",
-    "about": "Gino is a Giraffe.",
-    "location": "Everywhere",
-    "email": "gino@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Isabella Iguana",
-    "profilePic": "assets/img/speakers/iguana.jpg",
-    "twitter": "ionicframework",
-    "about": "Isabella is an Iguana.",
-    "location": "Everywhere",
-    "email": "isabella@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Karl Kitten",
-    "profilePic": "assets/img/speakers/kitten.jpg",
-    "twitter": "ionicframework",
-    "about": "Karl is a Kitten.",
-    "location": "Everywhere",
-    "email": "karl@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Lionel Lion",
-    "profilePic": "assets/img/speakers/lion.jpg",
-    "twitter": "ionicframework",
-    "about": "Lionel is a Lion.",
-    "location": "Everywhere",
-    "email": "lionel@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Molly Mouse",
-    "profilePic": "assets/img/speakers/mouse.jpg",
-    "twitter": "ionicframework",
-    "about": "Molly is a Mouse.",
-    "location": "Everywhere",
-    "email": "molly@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Paul Puppy",
-    "profilePic": "assets/img/speakers/puppy.jpg",
-    "twitter": "ionicframework",
-    "about": "Paul is a Puppy.",
-    "location": "Everywhere",
-    "email": "paul@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Rachel Rabbit",
-    "profilePic": "assets/img/speakers/rabbit.jpg",
-    "twitter": "ionicframework",
-    "about": "Rachel is a Rabbit.",
-    "location": "Everywhere",
-    "email": "rachel@example.com",
-    "phone": "+1-541-754-3010"
-  }, {
-    "name": "Ted Turtle",
-    "profilePic": "assets/img/speakers/turtle.jpg",
-    "twitter": "ionicframework",
-    "about": "Ted is a Turtle.",
-    "location": "Everywhere",
-    "email": "ted@example.com",
-    "phone": "+1-541-754-3010"
-  }],
+  ],
 
 
   "map": [{
