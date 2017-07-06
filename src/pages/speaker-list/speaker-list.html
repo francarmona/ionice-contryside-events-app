@@ -8,12 +8,12 @@
 </ion-header>
 
 <ion-content class="outer-content speaker-list">
-  <ion-list [virtualScroll]="speakers" approxItemHeight="450px">
+  <ion-list [virtualScroll]="speakers" approxItemHeight="600px">
     <ion-grid>
       <ion-row>
         <ion-col col-12 col-md-6 *virtualItem="let speaker">
           <ion-card>
-              <ion-img class="item-img" [src]="speaker.picture"></ion-img>
+              <img class="item-img" [src]="speaker.picture"/>
               <ion-fab (click)="goToSpeakerDetail(speaker)" right top style="right:20px;top:19px">
                   <button ion-fab>
                       <ion-icon name="eye"></ion-icon>
@@ -21,7 +21,7 @@
               </ion-fab>
               <ion-card-content>
                   <ion-card-title>
-                      <ion-img class="item-house-tipo" [src]="speaker.tipo"></ion-img>
+                      <img class="item-house-tipo" style="height:35px;width:auto;display:inline" [src]="speaker.tipo" />
                       {{speaker.name}}
                   </ion-card-title>
                   <p [innerHTML]="speaker.titulo"></p>
