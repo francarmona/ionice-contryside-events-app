@@ -42125,6 +42125,17 @@ page-speaker-list .speaker-card ion-card-content {
   padding-right: 0;
 }
 
+page-speaker-list .item-house-tipo img {
+  height: 35px;
+  width: auto;
+  display: inline;
+}
+
+page-speaker-list ion-img {
+  contain: none;
+  background: none;
+}
+
 .tabbar {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
