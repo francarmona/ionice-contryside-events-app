@@ -41744,7 +41744,7 @@ page-dispositivos .speaker-card ion-card-content {
 }
 
 page-dispositivos ion-card img {
-  max-height: 200px;
+  height: 205px;
   width: auto;
   margin: auto;
 }
@@ -42134,6 +42134,10 @@ page-speaker-list .item-house-tipo img {
 page-speaker-list ion-img {
   contain: none;
   background: none;
+}
+
+page-speaker-list ion-card img {
+  height: 205px;
 }
 
 .tabbar {
