@@ -2,7 +2,7 @@
     "events":[
         {
             "name": "Barbacoa",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "timeStart": "10:00 pm",
             "timeEnd": "00:00 am",
             "location": "Castillo",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Concierto",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "timeStart": "11:00 pm",
             "timeEnd": "04:00 am",
             "location": "Castillo",
@@ -20,7 +20,7 @@
         },
       {
         "name": "Cruising",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -29,7 +29,7 @@
       },
       {
         "name": "Hospedaje oferta",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -38,7 +38,7 @@
       },
       {
         "name": "Hospedaje demanda",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -47,7 +47,7 @@
       },
         {
             "name": "Intercambio semillas",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "timeStart": "10:00 am",
             "timeEnd": "01:00 am",
             "location": "Casa erere",
@@ -56,7 +56,7 @@
         },
       {
         "name": "Prosumir",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -65,7 +65,7 @@
       },
       {
         "name": "Taller enjalbegar",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -74,7 +74,7 @@
       },
       {
         "name": "Taller gastronómico",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -83,7 +83,7 @@
       },
       {
         "name": "Taller reciclaje",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -92,7 +92,7 @@
       },
       {
         "name": "Taller tapial",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
         "timeStart": "10:00 am",
         "timeEnd": "01:00 am",
         "location": "Casa adfsdf",
@@ -177,7 +177,7 @@
     ],
   "dispositivos": [
     {
-      "name": "Apptefacto 1",
+      "name": "Dispositivo 1",
       "picture": "assets/img/dispositivos/00.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -185,7 +185,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 2",
+      "name": "Dispositivo 2",
       "picture": "assets/img/dispositivos/01.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -193,7 +193,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 3",
+      "name": "Dispositivo 3",
       "picture": "assets/img/dispositivos/02.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -201,7 +201,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 4",
+      "name": "Dispositivo 4",
       "picture": "assets/img/dispositivos/03.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -209,7 +209,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 5",
+      "name": "Dispositivo 5",
       "picture": "assets/img/dispositivos/04.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -217,7 +217,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 6",
+      "name": "Dispositivo 6",
       "picture": "assets/img/dispositivos/05.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -225,7 +225,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 7",
+      "name": "Dispositivo 7",
       "picture": "assets/img/dispositivos/06.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",
@@ -233,7 +233,7 @@
       "lng": "-3.094882"
     },
     {
-      "name": "Apptefacto 8",
+      "name": "Dispositivo 8",
       "picture": "assets/img/dispositivos/07.png",
       "titulo": "",
       "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>",

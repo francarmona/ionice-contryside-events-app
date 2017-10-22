@@ -48,7 +48,7 @@ export class ConferenceApp {
     { title: 'Bestiario', name: 'TabsPage', component: TabsPage, tabComponent: SpeakerListPage, index: 1, icon: 'home' },
     { title: 'Mapa', name: 'TabsPage', component: TabsPage, tabComponent: MapPage, index: 2, icon: 'map' },
     { title: 'Dispositivos', name: 'TabsPage', component: TabsPage, tabComponent: DispositivosPage, index: 3, icon: 'ios-cog-outline' },
-    { title: 'BCS y Grupos de Consumo', name: 'TabsPage', component: TabsPage, tabComponent: GruposConsumoPage, index: 4, icon: 'people' },
+    { title: 'Grupos', name: 'TabsPage', component: TabsPage, tabComponent: GruposConsumoPage, index: 4, icon: 'people' },
     { title: 'About', name: 'TabsPage', component: TabsPage, tabComponent: AboutPage, index: 5, icon: 'information-circle' }
   ];
   loggedInPages: PageInterface[] = [
@@ -77,7 +77,7 @@ export class ConferenceApp {
     this.storage.get('hasSeenTutorial')
       .then((hasSeenTutorial) => {
         if (hasSeenTutorial) {
-          this.rootPage = TabsPage;
+          this.rootPage = MapPage;
         } else {
           this.rootPage = TutorialPage;
         }
