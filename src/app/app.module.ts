@@ -67,7 +67,7 @@ import { TruncateModule } from 'ng2-truncate';
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'detalleCasa/:name' },
         { component: MapPage, name: 'Map', segment: 'map' },
         { component: DispositivosPage, name: 'Dispositivos', segment: 'dispositivos' },
-        { component: GruposConsumoPage, name: 'BCS y Grupos de Consumo', segment: 'bcs' },
+        { component: GruposConsumoPage, name: 'Grupos', segment: 'bcs' },
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },

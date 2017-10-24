@@ -23,7 +23,7 @@ export class TabsPage {
   mySelectedIndex: number;
 
   constructor(navParams: NavParams) {
-    this.mySelectedIndex = navParams.data.tabIndex || 0;
+    this.mySelectedIndex = navParams.data.tabIndex || 2;
   }
 
 }
